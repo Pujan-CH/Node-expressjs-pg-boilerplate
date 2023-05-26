@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: boiler_plate
+    image: boiler_plate
+    ports:
+      - 5000:5000
